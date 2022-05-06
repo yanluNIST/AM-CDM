@@ -42,6 +42,7 @@ Build (note "A Build is an action to make one or more objects in a single action
 	described by buildLocation (note "Place of an AM process.") with a single value of type Address,
 	described by buildStartTime (note "Time when an AM build cycle starts.") with a single value of type dateTime,
 	described by buildEndTime (note "Time when an AM build cycle ends.") with a single value of type dateTime,
+	described by new,
 	described by buildCooldownDuration (note "Time from build completion to cooling to 100 degrees C.") with a single value of type Measurement.
 
 Part (note "Instances of part designs in the as-built state.") is a class,
