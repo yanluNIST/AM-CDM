@@ -74,7 +74,8 @@ BuildPlatform is a class,
 AMInsituData (note "Data recorded by in-situ monitoring systems during an AM Build cycle.") is a type of DatasetMetadata,
 	described by characteristicsType (note "characteristics measured, eg, melt pool geometry, melt pool temperature, powder bed surface, exposure surface.") with a single value of type string,
 	described by measurementType (note "Technique used for the measurement, eg, co-axial optical camera.") with values of type string,
-	described by inSituDevice (note "in-situ device used for the measurement.") with a single value of type InSituMonitoringSystem,
+	described by measurementLocation (note "The location of what is being monitored, eg, build surface, coaxial melt pool area.") with values of type string,
+	described by inSituDevice (note "Device used for the in-situ measuremen.") with a single value of type InSituMonitoringSystem,
 	described by inSituDeviceSetting (note "in-situ device setting for the measurement, including acquisition settings, for example, camera model, sampling rate, protocol, etc.") with values of type Measurement,
 	described by measurementDuration with a single value of type Measurement.
 
