@@ -64,7 +64,7 @@ BuildPlatform is a class,
 	described by buildPlatformWidth (note "Width of the build platform/plate.") with a single value of type Measurement,
 	described by buildPlatformDepth (note "Depth of the build platform/plate.") with a single value of type Measurement,
 
-	described by buildPlatformPostProcessMethods (note "Post processing methods of a build platform, e.g., hot rolled and annealed.") with a single value of type string,
+	described by buildPlatformProcessMethods (note "Post processing methods of a build platform, e.g., hot rolled and annealed.") with a single value of type string,
 	described by buildPlatformSurfaceFinish (note "Surface roughness description of the build plate.") with a single value of type string, // surface roughness?
 	described by buildPlatformManufacturer (note "Build platform manufacturer, links to Organization.") with a single value of type Organization,
 
