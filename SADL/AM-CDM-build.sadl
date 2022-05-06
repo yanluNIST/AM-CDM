@@ -44,8 +44,8 @@ Build (note "A Build is an action to make one or more objects in a single action
 	described by buildDuration (note "Recorded duration of build cycle.") with a single value of type Measurement,
 	described by buildLocation (note "Place of an AM process.") with a single value of type Address,
 	described by buildStartTime (note "Time when the AM build cycle started.") with a single value of type dateTime,
-	described by buildEndTime (note "Time when the AM build cycle ended.") with a single value of type dateTime,
-	described by buildCooldownDuration (note "Time from build completion to cooling to 100 degrees C.") with a single value of type Measurement.
+	described by buildEndTime (note "Time when the AM build cycle ended.") with a single value of type dateTime.
+	
 
 Part (note "Instances of part designs out of an AM build process.") is a class,
 	described by partID (note "Identifier for the part.") with a single value of type string,
